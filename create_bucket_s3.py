@@ -1,8 +1,8 @@
 import boto3
 from botocore.exceptions import NoCredentialsError
 
-ACCESS_KEY = 'AKIAIJV4MF3E2GZNIYVQ'
-SECRET_KEY = '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'
+ACCESS_KEY = 'ssdfasd'
+SECRET_KEY = 'asdfasdf+asdfasd'
 
 def create_bucket_s3(bucket):
     s3 = boto3.client('s3', aws_access_key_id=ACCESS_KEY,
