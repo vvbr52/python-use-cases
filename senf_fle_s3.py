@@ -1,8 +1,8 @@
 import boto3
 from botocore.exceptions import NoCredentialsError
 
-ACCESS_KEY = 'AKIAIJV4MF3E2GZNIYVQ'
-SECRET_KEY = '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'
+ACCESS_KEY = 'dsfasdfadsf'
+SECRET_KEY = 'asdfasd+adsfasdf'
 
 
 def upload_to_aws(local_file, bucket, s3_file):
