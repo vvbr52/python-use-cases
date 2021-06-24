@@ -1,14 +1,14 @@
 #https://dashboard.sinch.com/signup?utmcsr=www.geeksforgeeks.org&utmcmd=referral&utmccn=(not%20set)
-#mail: vvbr.100@gmail.com
-#passowrd:Arunkumar@452
+#mail: asdfasdf.asdfasdfasdf@gmail.com
+#passowrd:sadfasddfasdf
 
 import clx.xms
 import requests
 
 client = clx.xms.Client(service_plan_id='3f9339776b204d428b803f1e3fc21d9b', token='4c992e9bfdc744db824b3f0ca3301220')
 create = clx.xms.api.MtBatchTextSmsCreate()
-create.sender = '447537404817'
-create.recipients = {'918939432952'}
+create.sender = 'sadfa'
+create.recipients = {'asdfasdf'}
 create.body = 'This is a test message from your Sinch account'
 
 try:
