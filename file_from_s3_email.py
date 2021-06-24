@@ -3,7 +3,7 @@ import smtplib
 sender_email = "vvbr.52@gmail.com"
 rec_email = "vvbr.52@gmail.com"
 password = input(str("Please enter your password : "))
-#ikqryhzemfhhwzsz
+#asdfasdfasdfasdf
 message = "Hey, this was sent using python"
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
